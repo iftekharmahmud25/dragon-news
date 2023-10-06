@@ -3,9 +3,9 @@ import { Outlet } from "react-router-dom";
 
 const MainLayout = () => {
     return (
-        <div>
-            
-       <Outlet></Outlet>
+        <div className="max-w-6xl mx-auto font-poppins">
+       
+         <Outlet></Outlet>
         </div>
     );
 };
